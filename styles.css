@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    color: #646363;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    flex-direction: column;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: "Homemade Apple", cursive;
+    font-size: 3em;
+    color: #f40101;
+}
+
+h2 {
+    font-family: "Sono", monospace;
+    font-weight: bold;
+    font-style: normal;
+    color: #d5fd5f;
+}
+
+main {
+    width: 80%;
+    max-width: 800px;
+}
+
+.lyrics-frame {
+    background-color: #fff;
+    border: 2px solid #fb0000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    }
+
+
+section p.general {
+    font-family: "Sono", monospace;
+    font-style: normal;
+    line-height: 30px;
+
+    
+}
+
+section p.chorus {
+    font-family: "Homemade Apple", cursive;
+    font-size: 1.5em;
+    text-transform: lowercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+
+.father {
+    color: #000000;
+}
+
+section p.prechorus {
+    font-family: "Special Elite", system-ui;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: large;
+}
+
+.practice {
+    color: #ff8000;
+}
+
+ .drama {
+    font-weight: bolder;
+    color: rgb(165, 13, 18);
+
+}
+
+.meditate {
+    font-weight: bolder;
+    color: rgb(79, 79, 249);
+}
+
+.love {
+    color: red;
+}
+
+/* section p.emphatic {
+    font-weight: 700;
+    color: #e63946;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+} */
+
+/* font-family
+font-size
+font-weight
+font-style
+text-transform: uppercase;
+letter-spacing: 0.05em; */
